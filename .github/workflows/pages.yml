@@ -1,0 +1,39 @@
+name: Desplegar en GitHub Pages
+
+# La landing es HTML estatico: no hay build, se publica el repo tal cual.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un despliegue a la vez, sin cancelar el que ya esta corriendo.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  desplegar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # enablement: true activa Pages en el repo si aun no lo estaba,
+      # asi no hace falta tocar nada a mano en Settings.
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: despliegue
+        uses: actions/deploy-pages@v4
