@@ -1,0 +1,237 @@
+@font-face{font-family:'Archivo';font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/archivo-latin-400-normal.woff2') format('woff2');}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:500;font-display:swap;src:url('assets/fonts/archivo-latin-500-normal.woff2') format('woff2');}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/archivo-latin-600-normal.woff2') format('woff2');}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:700;font-display:swap;src:url('assets/fonts/archivo-latin-700-normal.woff2') format('woff2');}
+@font-face{font-family:'Archivo Black';font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/archivo-black-latin-400-normal.woff2') format('woff2');}
+
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #070808; color: #F4F6F2; font-family: 'Archivo', sans-serif; overflow-x: hidden; }
+a { color: #8CC63E; text-decoration: none; }
+a:hover { color: #A5DB5C; }
+::selection { background: #8CC63E; color: #070808; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes heroIn { from { opacity: 0; transform: translateY(60px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulseRing { 0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.5); } 70% { box-shadow: 0 0 0 18px rgba(37,211,102,0); } 100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); } }
+@keyframes scrollDot { 0% { transform: translateY(0); opacity: 1; } 80% { transform: translateY(16px); opacity: 0; } 100% { opacity: 0; } }
+@keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+video, section img, figure img { background: linear-gradient(135deg, #12160f, #1d2417); }
+[data-nav-links] a { white-space: nowrap; }
+@media (max-width: 1320px) {
+  [data-nav-phone] { display: none !important; }
+  [data-nav-links] { gap: 20px !important; letter-spacing: 0.08em !important; }
+}
+@media (max-width: 1180px) {
+  [data-nav-links] { gap: 14px !important; letter-spacing: 0.04em !important; font-size: 11.5px !important; }
+  [data-nav-cta] { padding: 10px 18px !important; }
+}
+@media (max-width: 1080px) {
+  [data-nav-links] a:not([data-nav-cta]) { display: none; }
+}
+
+/* estados :hover (compilados desde style-hover) */
+.hv1:hover{color: #FFFFFF !important;border-bottom-color: #8CC63E !important}
+.hv2:hover{color: #FFFFFF !important;border-bottom-color: #8CC63E !important}
+.hv3:hover{color: #FFFFFF !important;border-bottom-color: #8CC63E !important}
+.hv4:hover{color: #FFFFFF !important;border-bottom-color: #8CC63E !important}
+.hv5:hover{color: #FFFFFF !important;border-bottom-color: #8CC63E !important}
+.hv6:hover{color: #FFFFFF !important;border-bottom-color: #8CC63E !important}
+.hv7:hover{background: #A5DB5C !important;transform: translateY(-2px) !important;box-shadow: 0 8px 22px rgba(140,198,62,0.35) !important}
+.hv8:hover{transform: translateY(-3px) scale(1.03) !important;background: #A5DB5C !important}
+.hv9:hover{transform: translateY(-8px) !important;border-color: rgba(94,154,34,0.6) !important}
+.hv10:hover{transform: translateY(-8px) !important;border-color: rgba(94,154,34,0.6) !important}
+.hv11:hover{transform: translateY(-8px) !important;border-color: rgba(94,154,34,0.6) !important}
+.hv12:hover{transform: translateY(-8px) !important;border-color: rgba(94,154,34,0.6) !important}
+.hv13:hover{transform: scale(1.07) !important}
+.hv14:hover{transform: scale(1.07) !important}
+.hv15:hover{transform: scale(1.07) !important}
+.hv16:hover{transform: scale(1.07) !important}
+.hv17:hover{transform: scale(1.07) !important}
+.hv18:hover{transform: scale(1.07) !important}
+.hv19:hover{transform: scale(1.07) !important}
+.hv20:hover{transform: scale(1.07) !important}
+.hv21:hover{transform: translateY(-3px) !important;background: #A5DB5C !important}
+.hv22:hover{transform: translateY(-3px) !important;background: #A5DB5C !important}
+.hv23:hover{transform: scale(1.05) !important}
+.hv24:hover{transform: scale(1.05) !important}
+.hv25:hover{transform: scale(1.05) !important}
+.hv26:hover{transform: scale(1.05) !important}
+.hv27:hover{transform: scale(1.05) !important}
+.hv28:hover{transform: scale(1.05) !important}
+.hv29:hover{transform: scale(1.05) !important}
+.hv30:hover{transform: scale(1.05) !important}
+.hv31:hover{transform: scale(1.05) !important}
+.hv32:hover{transform: scale(1.05) !important}
+.hv33:hover{transform: scale(1.05) !important}
+.hv34:hover{transform: scale(1.05) !important}
+.hv35:hover{transform: translateY(-3px) scale(1.04) !important;background: #A5DB5C !important}
+.hv36:hover{background: #5E9A22 !important;transform: translateY(-2px) !important}
+.hv37:hover{transform: translateY(-3px) scale(1.03) !important;background: #101410 !important}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   STOPGAP — BORRAR ESTE BLOQUE AL REEMPLAZAR LAS FOTOS
+
+   Las 28 fotos de galeria, LED y proyectos que hay hoy son capturas del
+   render y traen el rotulo impreso en el pixel. Se oculta el figcaption para
+   que el texto no salga dos veces.
+
+   Cuando lleguen las fotos limpias (assets/export/*.jpg del proyecto de
+   diseno), borrar este <style> completo: el figcaption vuelve solo y el texto
+   pasa a ser HTML real — seleccionable, accesible y que reajusta en celular.
+   El resto del archivo no necesita ningun cambio.
+   ───────────────────────────────────────────────────────────────────────── */
+figcaption { display: none; }
+
+
+/* La tira de certificaciones trae en el diseño filter:invert(1)+mix-blend-mode:multiply,
+   que contaba con fundirse contra el verde de la sección. Ese blend no llega a
+   aplicarse: la animación de entrada le pone una transition de opacidad al
+   contenedor padre y eso aísla la imagen en su propia capa, dejándola sin acceso
+   al fondo. Resultado: un panel claro detrás de los sellos.
+   Se neutraliza el filtro y la imagen se entrega ya en su apariencia final
+   (sellos negros sobre fondo transparente), que es lo que el diseño buscaba. */
+/* se apunta por atributo y no por nombre de archivo: al empaquetar la
+   landing en un HTML autocontenido el src pasa a ser un data: URI y un
+   selector [src$="..."] dejaria de coincidir, devolviendo el invert(1). */
+img[data-certificaciones] {
+  filter: none !important;
+  mix-blend-mode: normal !important;
+  /* el diseño pone `section img { background: linear-gradient(#12160f,#1d2417) }`
+     como respaldo mientras cargan las fotos. Al ser esta imagen transparente,
+     ese gris oscuro se veía por detrás de los sellos. */
+  background: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   Añadido en el build de produccion. El bloque de arriba es el CSS del
+   diseño, intacto. Nada de aqui cambia colores, tipografias ni espaciados
+   del diseño: solo agrega comportamiento responsive y accesibilidad.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* El diseño pone overflow-x:hidden en body, pero la cinta de valores del hero
+   sangra a proposito (left:-2%; width:104%) y a 414px html seguia viendo 9px de
+   desborde, lo que hace bailar la pagina de lado en iPhone XR/11. Se corta
+   tambien en html. No hay position:sticky en la pagina, asi que es inocuo. */
+html { overflow-x: hidden; }
+
+/* <picture> debe ocupar la caja que antes ocupaba el <img> */
+picture { display: block; }
+figure > picture, section > picture { width: 100%; height: 100%; }
+picture > img { display: block; }
+
+/* Los width/height del markup estan SOLO para reservar la proporcion y evitar
+   CLS. Como atributos son hints de presentacion y equivalen a width:445px, lo
+   que deformaba el logo (445x40) y desbordaba la barra en movil. Cualquier
+   regla de autor gana al hint, y el style inline del diseño gana a esta: asi
+   la proporcion queda reservada y el tamaño lo sigue decidiendo el diseño. */
+img[width][height] { width: auto; height: auto; max-width: 100%; }
+
+/* ── PASO 6 · foco visible en todo lo interactivo ───────────────────── */
+a:focus-visible, button:focus-visible, summary:focus-visible,
+input:focus-visible, textarea:focus-visible {
+  outline: 3px solid #8CC63E;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+/* sobre fondo verde el propio verde no contrasta: se invierte */
+#contacto a:focus-visible, #contacto button:focus-visible,
+#contacto input:focus-visible, #contacto textarea:focus-visible {
+  outline-color: #070808;
+}
+
+/* ── PASO 6 · respetar la preferencia de menos movimiento ───────────── */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  [data-marquee] { animation: none !important; transform: none !important; }
+  [data-reveal] { opacity: 1 !important; transform: none !important; }
+}
+
+/* ── PASO 2 · entrada progresiva sin JavaScript ─────────────────────── */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    [data-reveal] {
+      animation: aparecer linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 42%;
+    }
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(46px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  }
+}
+
+/* ── PASO 3 · menu movil, accesible y sin JavaScript ────────────────── */
+.nav-movil { display: none; position: relative; }
+.nav-movil > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center;
+  gap: 9px; padding: 10px 16px; border-radius: 999px;
+  border: 1px solid rgba(140,198,62,0.55); background: rgba(7,8,8,0.6);
+  color: #F4F6F2; font-weight: 700; font-size: 12.5px; letter-spacing: 0.14em;
+}
+.nav-movil > summary::-webkit-details-marker { display: none; }
+.nav-movil > summary:hover { border-color: #8CC63E; }
+.nav-movil .barras { display: grid; gap: 4px; }
+.nav-movil .barras i { display: block; width: 18px; height: 2px; background: #8CC63E; }
+.nav-movil[open] > summary { border-color: #8CC63E; }
+.nav-movil-panel {
+  position: absolute; right: 0; top: calc(100% + 12px); z-index: 95;
+  min-width: 250px; display: grid; gap: 2px; padding: 10px;
+  background: rgba(7,8,8,0.97); border: 1px solid rgba(140,198,62,0.3);
+  border-radius: 16px; box-shadow: 0 22px 50px rgba(0,0,0,0.55);
+}
+.nav-movil-panel a {
+  display: block; padding: 13px 16px; border-radius: 10px;
+  color: rgba(244,246,242,0.9); font-size: 14px; font-weight: 700;
+  letter-spacing: 0.12em;
+}
+.nav-movil-panel a:hover { background: rgba(140,198,62,0.14); color: #FFFFFF; }
+.nav-movil-panel .destacado {
+  margin-top: 6px; background: #8CC63E; color: #070808; text-align: center;
+}
+.nav-movil-panel .destacado:hover { background: #A5DB5C; color: #070808; }
+.nav-movil-panel .tel {
+  border-top: 1px solid rgba(244,246,242,0.14); margin-top: 6px;
+  padding-top: 14px; color: #8CC63E; letter-spacing: 0.06em;
+}
+
+/* el menu aparece justo donde el diseño ocultaba los enlaces del nav */
+@media (max-width: 1080px) {
+  .nav-movil { display: block; }
+}
+
+/* ── PASO 3 · tablet ────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  /* el mosaico de 4 columnas pasa a 2 y los spans se neutralizan */
+  [data-mosaico] { grid-template-columns: repeat(2, 1fr) !important; }
+  [data-mosaico] > figure { grid-column: auto !important; grid-row: auto !important; }
+  [data-mosaico] > figure[data-ancho] { aspect-ratio: 1 / 1 !important; }
+  /* los max-width fijos del diseño dejan de encajonar el texto */
+  [style*="max-width: 620px"], [style*="max-width: 660px"],
+  [style*="max-width: 680px"], [style*="max-width: 720px"],
+  [style*="max-width: 880px"], [style*="max-width: 900px"],
+  [style*="max-width: 560px"], [style*="max-width: 620px"] { max-width: 100% !important; }
+  header[id="inicio"] { height: auto !important; min-height: 88vh !important; }
+  section { padding-left: 5vw !important; padding-right: 5vw !important; }
+}
+
+/* ── PASO 3 · movil ─────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  [data-mosaico] { grid-template-columns: 1fr !important; }
+  /* el H1 a 360px: clamp() ya lo baja, pero se afina el interlineado */
+  h1 { font-size: clamp(30px, 9.2vw, 44px) !important; line-height: 1.02 !important; }
+  h2 { font-size: clamp(23px, 6.6vw, 34px) !important; }
+  /* el parrafo del hero traia width/height fijos del editor */
+  header[id="inicio"] p[style*="width: 495px"] {
+    width: auto !important; height: auto !important;
+  }
+  /* la tira de valores no debe empujar el ancho de la pagina */
+  [data-marquee] > span { padding: 0 16px !important; font-size: 16px !important; }
+  figure { border-radius: 14px !important; }
+}

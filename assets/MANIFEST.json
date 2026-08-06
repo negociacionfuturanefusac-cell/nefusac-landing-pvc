@@ -1,0 +1,314 @@
+[
+ {
+  "repo": "assets/CATALOGO_TECNICO_NEFUSAC_VENTANAS_PVC_2026.pdf",
+  "design": "assets/CATALOGO_TECNICO_NEFUSAC_VENTANAS_PVC_2026.pdf",
+  "bytes": 7294931,
+  "presente": true,
+  "bytes_local": 7294931,
+  "nota": "subido; 7294931 B, coincide byte a byte con el del proyecto de diseno"
+ },
+ {
+  "repo": "assets/certificaciones.png",
+  "design": "assets/export/certificaciones.png",
+  "bytes": 127181,
+  "presente": true,
+  "bytes_local": 174042,
+  "nota": "subido negro-sobre-blanco; recortado al contenido e INVERTIDO, porque el CSS le aplica invert(1)+mix-blend-mode:multiply y sin invertir sale un rectangulo negro"
+ },
+ {
+  "repo": "assets/cierre-bano.jpg",
+  "design": "assets/export/cierre-bano.jpg",
+  "bytes": 135685,
+  "presente": true,
+  "bytes_local": 47500,
+  "nota": "de 8A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/cierre-familia.jpg",
+  "design": "assets/export/cierre-familia.jpg",
+  "bytes": 122538,
+  "presente": true,
+  "bytes_local": 140142,
+  "nota": "de HF.png subido (familia en sala); PNG->JPEG q84"
+ },
+ {
+  "repo": "assets/equipo-nefusac.jpg",
+  "design": "assets/export/equipo-nefusac.jpg",
+  "bytes": 112857,
+  "presente": true,
+  "bytes_local": 123029,
+  "nota": "de D1.png subido (operario en planta); PNG->JPEG q86"
+ },
+ {
+  "repo": "assets/gal1.jpg",
+  "design": "assets/export/gal1.jpg",
+  "bytes": 204609,
+  "presente": true,
+  "bytes_local": 50176,
+  "nota": "de 1A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/gal2.jpg",
+  "design": "assets/export/gal2.jpg",
+  "bytes": 120689,
+  "presente": true,
+  "bytes_local": 35902,
+  "nota": "de 2A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/gal3.jpg",
+  "design": "assets/export/gal3.jpg",
+  "bytes": 136042,
+  "presente": true,
+  "bytes_local": 41853,
+  "nota": "de 3A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/gal4.jpg",
+  "design": "assets/export/gal4.jpg",
+  "bytes": 112397,
+  "presente": true,
+  "bytes_local": 38179,
+  "nota": "de 4A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/gal5.jpg",
+  "design": "assets/export/gal5.jpg",
+  "bytes": 94525,
+  "presente": true,
+  "bytes_local": 33189,
+  "nota": "de 5A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/gal6.jpg",
+  "design": "assets/export/gal6.jpg",
+  "bytes": 179933,
+  "presente": true,
+  "bytes_local": 44584,
+  "nota": "de 6A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/gal7.jpg",
+  "design": "assets/export/gal7.jpg",
+  "bytes": 221473,
+  "presente": true,
+  "bytes_local": 49645,
+  "nota": "de 7A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/led-bano-2.jpg",
+  "design": "assets/export/led-bano-2.jpg",
+  "bytes": 144618,
+  "presente": true,
+  "bytes_local": 41560,
+  "nota": "de 2B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/led-cocina-isla.jpg",
+  "design": "assets/export/led-cocina-isla.jpg",
+  "bytes": 97167,
+  "presente": true,
+  "bytes_local": 36894,
+  "nota": "de 6B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/led-escalera.jpg",
+  "design": "assets/export/led-escalera.jpg",
+  "bytes": 65835,
+  "presente": true,
+  "bytes_local": 28089,
+  "nota": "de 8B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/led-estar.jpg",
+  "design": "assets/export/led-estar.jpg",
+  "bytes": 64649,
+  "presente": true,
+  "bytes_local": 29230,
+  "nota": "de 4B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/led-estudio.jpg",
+  "design": "assets/export/led-estudio.jpg",
+  "bytes": 90811,
+  "presente": true,
+  "bytes_local": 33624,
+  "nota": "de 3B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/led-noche.jpg",
+  "design": "assets/export/led-noche.jpg",
+  "bytes": 73060,
+  "presente": true,
+  "bytes_local": 28528,
+  "nota": "de 5B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/led-sala-2.jpg",
+  "design": "assets/export/led-sala-2.jpg",
+  "bytes": 109964,
+  "presente": true,
+  "bytes_local": 35722,
+  "nota": "de 7B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/led-sala.jpg",
+  "design": "assets/export/led-sala.jpg",
+  "bytes": 76671,
+  "presente": true,
+  "bytes_local": 23932,
+  "nota": "de 1B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/logo.jpg",
+  "design": "assets/export/logo.jpg",
+  "bytes": 6978,
+  "presente": true,
+  "bytes_local": 11772,
+  "nota": "subido 1024x1024 sobre verde; recortado al ancho de la marca (445x132) para que se lea a 40px de alto"
+ },
+ {
+  "repo": "assets/poster-1.jpg",
+  "design": "assets/poster-1.jpg",
+  "bytes": 32460,
+  "presente": true,
+  "bytes_local": 22937,
+  "nota": "generado del primer fotograma de video-1.mp4"
+ },
+ {
+  "repo": "assets/poster-2.jpg",
+  "design": "assets/poster-2.jpg",
+  "bytes": 38640,
+  "presente": true,
+  "bytes_local": 85713,
+  "nota": "generado del primer fotograma de video-2.mp4"
+ },
+ {
+  "repo": "assets/poster-3.jpg",
+  "design": "assets/poster-3.jpg",
+  "bytes": 24433,
+  "presente": true,
+  "bytes_local": 50268,
+  "nota": "generado del primer fotograma de video-3.mp4"
+ },
+ {
+  "repo": "assets/proy-1.jpg",
+  "design": "assets/export/proy-1.jpg",
+  "bytes": 226303,
+  "presente": true,
+  "bytes_local": 160443,
+  "nota": "de 1C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-10.jpg",
+  "design": "assets/export/proy-10.jpg",
+  "bytes": 257921,
+  "presente": true,
+  "bytes_local": 47645,
+  "nota": "de 11C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-11.jpg",
+  "design": "assets/export/proy-11.jpg",
+  "bytes": 201245,
+  "presente": true,
+  "bytes_local": 39936,
+  "nota": "de 12C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-12.jpg",
+  "design": "assets/export/proy-12.jpg",
+  "bytes": 153406,
+  "presente": true,
+  "bytes_local": 76198,
+  "nota": "de 10C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-2.jpg",
+  "design": "assets/export/proy-2.jpg",
+  "bytes": 234805,
+  "presente": true,
+  "bytes_local": 62702,
+  "nota": "de 2C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-3.jpg",
+  "design": "assets/export/proy-3.jpg",
+  "bytes": 133401,
+  "presente": true,
+  "bytes_local": 62058,
+  "nota": "de 4C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-4.jpg",
+  "design": "assets/export/proy-4.jpg",
+  "bytes": 113614,
+  "presente": true,
+  "bytes_local": 38679,
+  "nota": "de 8C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-5.jpg",
+  "design": "assets/export/proy-5.jpg",
+  "bytes": 538271,
+  "presente": true,
+  "bytes_local": 60608,
+  "nota": "de 7C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-6.jpg",
+  "design": "assets/export/proy-6.jpg",
+  "bytes": 323225,
+  "presente": true,
+  "bytes_local": 63100,
+  "nota": "de 6C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-7.jpg",
+  "design": "assets/export/proy-7.jpg",
+  "bytes": 154085,
+  "presente": true,
+  "bytes_local": 136448,
+  "nota": "de 5C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-8.jpg",
+  "design": "assets/export/proy-8.jpg",
+  "bytes": 297264,
+  "presente": true,
+  "bytes_local": 58267,
+  "nota": "de 9C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/proy-9.jpg",
+  "design": "assets/export/proy-9.jpg",
+  "bytes": 215889,
+  "presente": true,
+  "bytes_local": 38311,
+  "nota": "de 3C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
+ },
+ {
+  "repo": "assets/video-1.mp4",
+  "design": "assets/video-1.mp4",
+  "bytes": 719971,
+  "presente": true,
+  "bytes_local": 1908377,
+  "nota": "recomprimido de 6.23 MB (original subido) con libx264 crf28"
+ },
+ {
+  "repo": "assets/video-2.mp4",
+  "design": "assets/video-2.mp4",
+  "bytes": 227587,
+  "presente": true,
+  "bytes_local": 559770,
+  "nota": "recomprimido de 2.73 MB (original subido) con libx264 crf28"
+ },
+ {
+  "repo": "assets/video-3.mp4",
+  "design": "assets/video-3.mp4",
+  "bytes": 219287,
+  "presente": true,
+  "bytes_local": 513726,
+  "nota": "recomprimido de 2.60 MB (original subido) con libx264 crf28"
+ }
+]

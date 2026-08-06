@@ -1,0 +1,282 @@
+{
+ "certificaciones.png": {
+  "alfa": true,
+  "h": 649,
+  "srcset": [],
+  "w": 932
+ },
+ "cierre-bano.jpg": {
+  "alfa": false,
+  "h": 417,
+  "srcset": [
+   400
+  ],
+  "w": 547
+ },
+ "cierre-familia.jpg": {
+  "alfa": false,
+  "h": 1024,
+  "srcset": [
+   400,
+   640
+  ],
+  "w": 1024
+ },
+ "equipo-nefusac.jpg": {
+  "alfa": false,
+  "h": 1084,
+  "srcset": [
+   400,
+   640
+  ],
+  "w": 682
+ },
+ "gal1.jpg": {
+  "alfa": false,
+  "h": 414,
+  "srcset": [
+   400
+  ],
+  "w": 555
+ },
+ "gal2.jpg": {
+  "alfa": false,
+  "h": 417,
+  "srcset": [
+   400
+  ],
+  "w": 553
+ },
+ "gal3.jpg": {
+  "alfa": false,
+  "h": 415,
+  "srcset": [
+   400
+  ],
+  "w": 543
+ },
+ "gal4.jpg": {
+  "alfa": false,
+  "h": 420,
+  "srcset": [
+   400
+  ],
+  "w": 553
+ },
+ "gal5.jpg": {
+  "alfa": false,
+  "h": 414,
+  "srcset": [
+   400
+  ],
+  "w": 553
+ },
+ "gal6.jpg": {
+  "alfa": false,
+  "h": 418,
+  "srcset": [
+   400
+  ],
+  "w": 547
+ },
+ "gal7.jpg": {
+  "alfa": false,
+  "h": 418,
+  "srcset": [
+   400
+  ],
+  "w": 553
+ },
+ "led-bano-2.jpg": {
+  "alfa": false,
+  "h": 393,
+  "srcset": [
+   400
+  ],
+  "w": 513
+ },
+ "led-cocina-isla.jpg": {
+  "alfa": false,
+  "h": 384,
+  "srcset": [
+   400
+  ],
+  "w": 514
+ },
+ "led-escalera.jpg": {
+  "alfa": false,
+  "h": 388,
+  "srcset": [
+   400
+  ],
+  "w": 519
+ },
+ "led-estar.jpg": {
+  "alfa": false,
+  "h": 382,
+  "srcset": [
+   400
+  ],
+  "w": 510
+ },
+ "led-estudio.jpg": {
+  "alfa": false,
+  "h": 391,
+  "srcset": [
+   400
+  ],
+  "w": 514
+ },
+ "led-noche.jpg": {
+  "alfa": false,
+  "h": 388,
+  "srcset": [
+   400
+  ],
+  "w": 514
+ },
+ "led-sala-2.jpg": {
+  "alfa": false,
+  "h": 394,
+  "srcset": [
+   400
+  ],
+  "w": 514
+ },
+ "led-sala.jpg": {
+  "alfa": false,
+  "h": 381,
+  "srcset": [
+   400
+  ],
+  "w": 520
+ },
+ "logo.jpg": {
+  "alfa": false,
+  "h": 132,
+  "srcset": [],
+  "w": 445
+ },
+ "poster-1.jpg": {
+  "alfa": false,
+  "h": 720,
+  "srcset": [],
+  "w": 1280
+ },
+ "poster-2.jpg": {
+  "alfa": false,
+  "h": 720,
+  "srcset": [],
+  "w": 1280
+ },
+ "poster-3.jpg": {
+  "alfa": false,
+  "h": 720,
+  "srcset": [],
+  "w": 1280
+ },
+ "proy-1.jpg": {
+  "alfa": false,
+  "h": 1050,
+  "srcset": [
+   400,
+   640,
+   1024
+  ],
+  "w": 1056
+ },
+ "proy-10.jpg": {
+  "alfa": false,
+  "h": 525,
+  "srcset": [
+   400
+  ],
+  "w": 514
+ },
+ "proy-11.jpg": {
+  "alfa": false,
+  "h": 522,
+  "srcset": [
+   400
+  ],
+  "w": 513
+ },
+ "proy-12.jpg": {
+  "alfa": false,
+  "h": 529,
+  "srcset": [
+   400,
+   640,
+   1024
+  ],
+  "w": 1045
+ },
+ "proy-2.jpg": {
+  "alfa": false,
+  "h": 517,
+  "srcset": [
+   400
+  ],
+  "w": 517
+ },
+ "proy-3.jpg": {
+  "alfa": false,
+  "h": 531,
+  "srcset": [
+   400,
+   640,
+   1024
+  ],
+  "w": 1047
+ },
+ "proy-4.jpg": {
+  "alfa": false,
+  "h": 525,
+  "srcset": [
+   400
+  ],
+  "w": 517
+ },
+ "proy-5.jpg": {
+  "alfa": false,
+  "h": 525,
+  "srcset": [
+   400
+  ],
+  "w": 517
+ },
+ "proy-6.jpg": {
+  "alfa": false,
+  "h": 525,
+  "srcset": [
+   400
+  ],
+  "w": 529
+ },
+ "proy-7.jpg": {
+  "alfa": false,
+  "h": 1054,
+  "srcset": [
+   400,
+   640,
+   1024
+  ],
+  "w": 1045
+ },
+ "proy-8.jpg": {
+  "alfa": false,
+  "h": 517,
+  "srcset": [
+   400
+  ],
+  "w": 517
+ },
+ "proy-9.jpg": {
+  "alfa": false,
+  "h": 519,
+  "srcset": [
+   400
+  ],
+  "w": 523
+ }
+}
