@@ -267,7 +267,13 @@ input:focus-visible, textarea:focus-visible {
   /* el mosaico de 4 columnas pasa a 2 y los spans se neutralizan */
   [data-mosaico] { grid-template-columns: repeat(2, 1fr) !important; }
   [data-mosaico] > figure { grid-column: auto !important; grid-row: auto !important; }
-  [data-mosaico] > figure[data-ancho] { aspect-ratio: 1 / 1 !important; }
+  /* Las dos fotos apaisadas conservan su 2:1 tambien en movil. Antes se
+     forzaban a 1/1 para uniformar el mosaico, pero con object-fit: cover eso
+     recorta los costados, y como estas fotos traen el rotulo impreso pegado al
+     borde izquierdo se comia el principio del texto: "Residencia privada ·
+     Interior" quedaba en "a · Interior". Mejor una franja mas baja y completa
+     que un cuadrado que corta contenido. */
+  [data-mosaico] > figure[data-ancho] { aspect-ratio: 2 / 1 !important; }
   /* los max-width fijos del diseño dejan de encajonar el texto */
   [style*="max-width: 620px"], [style*="max-width: 660px"],
   [style*="max-width: 680px"], [style*="max-width: 720px"],
