@@ -29,21 +29,26 @@ def fuente(arch, px):
 
 
 def main():
-    # fondo: la foto de la familia, recortada a 1.91:1 y oscurecida para que
-    # el texto encima sea legible sin depender de la zona de la imagen
-    fondo = Image.open(os.path.join(A, "familia-sala-ventana-pvc-nefusac.jpg")).convert("RGB")
-    esc = max(W / fondo.width, H / fondo.height)
-    fondo = fondo.resize((round(fondo.width * esc), round(fondo.height * esc)), Image.LANCZOS)
-    x = (fondo.width - W) // 2
-    y = max(0, int(fondo.height * 0.28) - H // 2)
-    lienzo = fondo.crop((x, y, x + W, y + H))
-    lienzo = ImageEnhance.Brightness(lienzo).enhance(0.42)
+    # Fondo: la sala con corrediza negra, elegida por ser luminosa y de dia.
+    # Se recorta 1.91:1 ANCLADO ARRIBA: esta foto es una de las capturas del
+    # render y trae el rotulo impreso en el pie, asi que tomar la franja
+    # superior lo deja fuera sin tener que taparlo.
+    # Nota de calidad: la fuente mide 547 px de ancho, asi que hay que ampliar
+    # 2.19x para llegar a 1200. Con el original a resolucion nativa la tarjeta
+    # saldria nitida; con esta sale algo blanda, aceptable a tamano de chat.
+    fondo = Image.open(os.path.join(A, "ventana-pvc-corrediza-negra-sala.jpg")).convert("RGB")
+    alto = round(fondo.width / (W / H))
+    lienzo = fondo.crop((0, 0, fondo.width, alto)).resize((W, H), Image.LANCZOS)
+    # menos oscurecido que antes: la foto se eligio por luminosa y bajarla
+    # demasiado anulaba el motivo de elegirla. La legibilidad se resuelve con el
+    # degradado inferior, no apagando toda la imagen.
+    lienzo = ImageEnhance.Brightness(lienzo).enhance(0.72)
 
-    # degradado inferior, para anclar el texto
+    # degradado inferior, mas marcado para compensar el fondo mas claro
     grad = Image.new("L", (1, H))
     for i in range(H):
         t = i / H
-        grad.putpixel((0, i), int(255 * min(1, max(0, (t - 0.25) / 0.75) ** 1.4)))
+        grad.putpixel((0, i), int(240 * min(1, max(0, (t - 0.18) / 0.82) ** 1.15)))
     velo = Image.new("RGB", (W, H), NEGRO)
     lienzo = Image.composite(velo, lienzo, grad.resize((W, H)))
 
