@@ -431,6 +431,22 @@ def construir():
     s = re.sub(r"<head>.*?</head>", "<head>\n" + HEAD + "</head>", s, flags=re.S)
     s = s.replace('<html lang="es">', '<html lang="es-PE">')
 
+    # ---- tipografia: unidades que no se separan ---------------------------
+    # En el editor alguien quiso que "6" y "mm" no cayeran en lineas distintas y
+    # metio una tanda de &nbsp; ANTES del numero. Eso no une nada: solo abre un
+    # hueco de 6 espacios, muy visible en movil. La forma correcta es un espacio
+    # duro ENTRE el numero y la unidad, que es justo lo que se buscaba.
+    # Solo en el texto visible: dentro de <script> (el JSON-LD) las entidades no
+    # se decodifican, y Google leeria literalmente "6&nbsp;mm" en la descripcion.
+    def unir_unidades(tramo):
+        tramo = re.sub(r'(?:&nbsp;\s*){2,}', ' ', tramo)   # se elimina el hueco
+        return re.sub(r'(\d)\s+mm\b', r'\1&nbsp;mm', tramo)
+
+    partes = re.split(r'(<script\b.*?</script>)', s, flags=re.S)
+    s = "".join(p if i % 2 else unir_unidades(p) for i, p in enumerate(partes))
+    print("unidades unidas con espacio duro: %d (solo texto visible)"
+          % len(re.findall(r'&nbsp;mm', s)))
+
     # ---- PASO 3 · pisos rigidos de ancho ----------------------------------
     # El editor deja `minmax(340px, 1fr)` y `min-width: 280px`. Ese valor es un
     # piso DURO: la pista no baja de ahi aunque el contenedor sea mas angosto, y
