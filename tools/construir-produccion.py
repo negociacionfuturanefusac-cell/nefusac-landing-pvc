@@ -72,22 +72,43 @@ JSONLD = {
             "sameAs": ["https://wa.me/" + WA],
         },
         {
-            "@type": "Product",
-            "@id": DOMINIO + "/#producto",
-            "name": "Ventanas de PVC NEFUSAC Serie 50NF / 52NF",
-            "description": ("Sistema corredizo de PVC con hoja fija, vidrio laminado de "
-                            "seguridad de 6 mm, perfil autoextinguible sin puente térmico, "
-                            "sellado perimetral continuo y drenaje controlado. "
-                            "Disponible en blanco y negro, fabricado a medida."),
-            "brand": {"@type": "Brand", "name": "NEFUSAC"},
-            "material": "PVC-U",
+            # Se modela como Service y NO como Product a proposito. Google exige
+            # que un Product declare offers, review o aggregateRating, y la unica
+            # de las tres que aplicaria aqui seria un precio. En la pagina no hay
+            # ningun precio publicado, y marcar datos que el usuario no ve va
+            # contra las directrices de datos estructurados: expone el dominio a
+            # una accion manual. Ademas seria inexacto: NEFUSAC no despacha un
+            # producto de catalogo con precio de lista, presta un servicio de
+            # fabricacion e instalacion a medida previa evaluacion del vano.
+            # Si alguna vez se publica un "desde S/ X" VISIBLE en la pagina, ahi
+            # si corresponde volver a Product con offers.
+            "@type": "Service",
+            "@id": DOMINIO + "/#servicio",
+            "name": "Fabricación e instalación de ventanas de PVC a medida",
+            "serviceType": "Fabricación e instalación de ventanas de PVC",
+            "description": ("Medición, fabricación e instalación de ventanas de PVC a medida: "
+                            "sistema corredizo con hoja fija, vidrio laminado de seguridad de "
+                            "6 mm, perfil autoextinguible sin puente térmico, sellado "
+                            "perimetral continuo y drenaje controlado. Series 50NF y 52NF, "
+                            "disponibles en blanco y negro."),
+            "provider": {"@id": DOMINIO + "/#empresa"},
+            "areaServed": {"@type": "City", "name": "Lima", "addressCountry": "PE"},
+            "audience": {"@type": "Audience",
+                         "audienceType": "Residencial y corporativo"},
             "image": [DOMINIO + "/assets/ventana-pvc-corrediza-blanca-sala-jardin.jpg",
                       DOMINIO + "/assets/ventana-pvc-perfil-negro-dormitorio-mar.jpg",
                       DOMINIO + "/assets/ventana-pvc-led-perimetral-sala.jpg",
                       DOMINIO + "/assets/ventanas-pvc-edificio-institucional-lima.jpg"],
-            "manufacturer": {"@id": DOMINIO + "/#empresa"},
-            "audience": {"@type": "Audience",
-                         "audienceType": "Residencial y corporativo"},
+            "termsOfService": DOMINIO + "/",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Sistemas de ventanas de PVC NEFUSAC",
+                "itemListElement": [
+                    {"@type": "OfferCatalog", "name": "Serie 50NF · corrediza con hoja fija"},
+                    {"@type": "OfferCatalog", "name": "Serie 52NF · corrediza con hoja fija"},
+                    {"@type": "OfferCatalog", "name": "Accesorio de iluminación LED perimetral"},
+                ],
+            },
         },
     ],
 }
