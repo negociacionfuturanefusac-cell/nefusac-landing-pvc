@@ -72,7 +72,7 @@ Port 1:1 de la lógica del componente original:
 - **Catálogo** — se descarga como blob para renombrar el archivo; si falla, se
   abre en pestaña nueva.
 - **Formulario** — no tiene backend: arma el mensaje y lo abre en WhatsApp
-  (`wa.me/51981838144`), omitiendo los campos vacíos, y luego muestra la
+  (`wa.me/51981124794`), omitiendo los campos vacíos, y luego muestra la
   confirmación.
 
 ## Verificado
@@ -107,7 +107,7 @@ de los MP4 se comprobó decodificándolos aparte, no en el navegador.
 
 - La landing es independiente del aplicativo de contratos en la raíz del repo
   (`/index.html`); no comparten código ni assets.
-- Datos de contacto embebidos: WhatsApp 981 838 144, teléfono (01) 326 4240,
+- Datos de contacto embebidos: WhatsApp 981 124 794, teléfono (01) 326 4240,
   `cotiza@nefusac.com.pe`, Jr. Mariscal Agustín Gamarra 132, San Luis, Lima.
 - El formulario declara el uso de datos bajo la Ley N.º 29733; el texto del
   consentimiento viene del diseño y conviene revisarlo antes de publicar.
