@@ -504,7 +504,7 @@ def construir():
                   '<figure data-ancho style="grid-column: span 2; margin: 0;')
 
     destinos = [("#inicio", "INICIO"), ("#silencio", "SILENCIO"), ("#producto", "PRODUCTO"),
-                ("#galeria", "AMBIENTES"), ("#led", "LUCES LED"), ("#ficha", "FICHA TÉCNICA"),
+                ("#galeria", "AMBIENTES"), ("#led", "LUCES LED"), ("#ficha", "CATÁLOGO TÉCNICO"),
                 ("#empresa", "EMPRESA")]
     enlaces = "".join(f'<a href="{h}">{t}</a>' for h, t in destinos)
     menu = (
