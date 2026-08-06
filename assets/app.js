@@ -69,7 +69,7 @@
         l('Nombre', f.get('nombre')) + l('Correo', f.get('correo')) +
         l('Teléfono', f.get('telefono')) + l('Proyecto', f.get('proyecto')) +
         l('Mensaje', f.get('mensaje'));
-      window.open('https://wa.me/51981838144?text=' + encodeURIComponent(msg.trim()) +
+      window.open('https://wa.me/51981124794?text=' + encodeURIComponent(msg.trim()) +
         '&utm_source=web&utm_medium=form&utm_content=formulario', '_blank', 'noopener');
       var ok = form.querySelector('[data-form-ok]');
       if (ok) { ok.hidden = false; }
