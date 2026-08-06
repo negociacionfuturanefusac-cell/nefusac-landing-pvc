@@ -138,11 +138,12 @@ CSS_EXTRA = '''
    del diseño: solo agrega comportamiento responsive y accesibilidad.
    ═══════════════════════════════════════════════════════════════════════ */
 
-/* El diseño pone overflow-x:hidden en body, pero la cinta de valores del hero
-   sangra a proposito (left:-2%; width:104%) y a 414px html seguia viendo 9px de
-   desborde, lo que hace bailar la pagina de lado en iPhone XR/11. Se corta
-   tambien en html. No hay position:sticky en la pagina, asi que es inocuo. */
-html { overflow-x: hidden; }
+/* La cinta de valores del hero sangra a proposito (left:-2%; width:104%). Se
+   recorta EN SU PROPIO contenedor, no con un overflow-x:hidden global: ese
+   truco tapaba desbordes reales de otras secciones y dejaba el texto recortado
+   e inalcanzable en lugar de hacerlos visibles al medirlos. */
+[data-marquee] { max-width: 100vw; }
+header[id="inicio"] { overflow: hidden; }
 
 /* <picture> debe ocupar la caja que antes ocupaba el <img> */
 picture { display: block; }
@@ -248,6 +249,24 @@ input:focus-visible, textarea:focus-visible {
   [style*="max-width: 560px"], [style*="max-width: 620px"] { max-width: 100% !important; }
   header[id="inicio"] { height: auto !important; min-height: 88vh !important; }
   section { padding-left: 5vw !important; padding-right: 5vw !important; }
+}
+
+/* ── PASO 3 · aire en las tarjetas con padding grande ───────────────── */
+@media (max-width: 620px) {
+  /* el editor deja hasta 48px de padding lateral: en un telefono se come el
+     ancho util y el texto queda apretado contra los bordes. */
+  [style*="padding: 54px 48px"] { padding: 34px 22px !important; }
+  [style*="padding: 34px 38px"] { padding: 26px 20px !important; }
+  [style*="padding: 34px 28px"] { padding: 26px 20px !important; }
+  [style*="padding: 30px 28px"] { padding: 24px 18px !important; }
+  [style*="padding: 26px 28px"] { padding: 22px 18px !important; }
+  /* CORREO y TELEFONO van lado a lado con minmax(150px): a 412px no caben y
+     el campo se sale de la pantalla. Apilados quedan comodos de tipear. */
+  [data-form-cotiza] div[style*="minmax(min(100%, 150px)"] {
+    grid-template-columns: 1fr !important;
+  }
+  /* la justificacion abre huecos horribles a poco ancho */
+  [style*="text-align: justify"] { text-align: left !important; }
 }
 
 /* ── PASO 3 · movil ─────────────────────────────────────────────────── */
@@ -406,6 +425,17 @@ def construir():
     # ---- head nuevo -------------------------------------------------------
     s = re.sub(r"<head>.*?</head>", "<head>\n" + HEAD + "</head>", s, flags=re.S)
     s = s.replace('<html lang="es">', '<html lang="es-PE">')
+
+    # ---- PASO 3 · pisos rigidos de ancho ----------------------------------
+    # El editor deja `minmax(340px, 1fr)` y `min-width: 280px`. Ese valor es un
+    # piso DURO: la pista no baja de ahi aunque el contenedor sea mas angosto, y
+    # el bloque se sale de la pantalla. Con min(100%, N) el piso cede cuando no
+    # cabe y se comporta igual cuando si cabe, en todo ancho y sin media query.
+    n_grid = len(re.findall(r'minmax\(\d+px, 1fr\)', s))
+    s = re.sub(r'minmax\((\d+)px, 1fr\)', r'minmax(min(100%, \1px), 1fr)', s)
+    n_flex = len(re.findall(r'min-width: \d+px', s))
+    s = re.sub(r'min-width: (\d+)px', r'min-width: min(100%, \1px)', s)
+    print("pisos flexibilizados: %d grids + %d flex" % (n_grid, n_flex))
 
     # ---- PASO 2 · imagenes ------------------------------------------------
     s = re.sub(r'<img\b[^>]*?>', picture, s)
