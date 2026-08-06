@@ -25,11 +25,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # enablement: true activa Pages en el repo si aun no lo estaba,
-      # asi no hace falta tocar nada a mano en Settings.
+      # Sin enablement: la app de GitHub de la sesion no tiene permiso para
+      # CREAR el sitio de Pages ("Resource not accessible by integration"), asi
+      # que Pages se activa una unica vez a mano en Settings > Pages eligiendo
+      # Source: GitHub Actions. Desplegar sobre un sitio ya activo si funciona.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
