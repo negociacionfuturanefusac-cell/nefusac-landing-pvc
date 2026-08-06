@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.nefusac.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.nefusac.com/#silencio</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.nefusac.com/#producto</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.nefusac.com/#galeria</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.nefusac.com/#led</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.nefusac.com/#ficha</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.nefusac.com/#empresa</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.nefusac.com/#contacto</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ventanasnefusacpvc.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/certificaciones.png</image:loc><image:title>Huella de Carbono Perú, ISO 9001, ISO 14001, ISO 45001 icontec, IQNET</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/familia-sala-ventana-pvc-nefusac.jpg</image:loc><image:title>Familia en su sala disfrutando una ventana de PVC de NEFUSAC</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/operario-nefusac-planta-fabricacion-pvc.jpg</image:loc><image:title>Operario de NEFUSAC en la planta de fabricación de ventanas de PVC</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/sellado-perimetral-ventana-pvc-en-obra.jpg</image:loc><image:title>Sellado perimetral de una ventana de PVC durante la instalación en obra</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-blanca-led-perimetral-atardecer.jpg</image:loc><image:title>Ventana de PVC blanca con halo LED al atardecer en una sala</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-corrediza-bano-enchape.jpg</image:loc><image:title>Ventana corrediza de PVC sobre enchape en un baño</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-corrediza-bano-perfil-negro.jpg</image:loc><image:title>Ventana corrediza de PVC con perfil negro en un baño</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-corrediza-blanca-detalle.jpg</image:loc><image:title>Detalle del perfil de una ventana corrediza de PVC blanca</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-corrediza-blanca-sala-jardin.jpg</image:loc><image:title>Ventana corrediza de PVC blanca en una sala con vista al jardín</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-corrediza-cocina-encimera.jpg</image:loc><image:title>Ventana corrediza de PVC sobre la encimera de una cocina</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-corrediza-departamento-enchape.jpg</image:loc><image:title>Ventana corrediza de PVC sobre enchape en un departamento</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-corrediza-led-perimetral-cocina.jpg</image:loc><image:title>Ventana corrediza de PVC con LED perimetral encendido en una cocina</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-corrediza-negra-sala.jpg</image:loc><image:title>Ventana corrediza de PVC negra en una sala de estar</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-corrediza-salida-jardin.jpg</image:loc><image:title>Ventana corrediza de PVC con salida al jardín</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-dormitorio-vista-al-mar.jpg</image:loc><image:title>Ventana de PVC en un dormitorio frente al mar al atardecer</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-home-office-vista-ciudad.jpg</image:loc><image:title>Ventana de PVC en un home office con vista a la ciudad</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-interior-residencial-jardin.jpg</image:loc><image:title>Ventana de PVC en un interior residencial con vista al jardín</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-led-perimetral-bano-travertino.jpg</image:loc><image:title>Ventana de PVC con LED perimetral en un baño en travertino</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-led-perimetral-de-noche.jpg</image:loc><image:title>Ventana de PVC con halo de LED perimetral en un ambiente nocturno</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-led-perimetral-escalera.jpg</image:loc><image:title>Ventana de PVC con LED perimetral iluminando una escalera</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-led-perimetral-estar.jpg</image:loc><image:title>Ventana de PVC con LED perimetral sobre el sofá de un estar</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-led-perimetral-sala.jpg</image:loc><image:title>Ventana de PVC con luz LED perimetral encendida en una sala</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-negra-led-perimetral-estudio.jpg</image:loc><image:title>Ventana de PVC negra con LED perimetral en un estudio</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-panoramica-mezanine.jpg</image:loc><image:title>Ventana panorámica de PVC con persianas en un mezanine</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventana-pvc-perfil-negro-dormitorio-mar.jpg</image:loc><image:title>Ventana de PVC con perfil negro en un dormitorio con vista al mar</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventanas-pvc-cocina-tres-cuerpos.jpg</image:loc><image:title>Cocina con tres ventanas de PVC de cuerpos independientes</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventanas-pvc-conjunto-modular-terraza.jpg</image:loc><image:title>Conjunto de viviendas modulares con terraza y ventanas de PVC</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventanas-pvc-edificio-institucional-lima.jpg</image:loc><image:title>Fachada de un edificio institucional en Lima con ventanas de PVC instaladas por NEFUSAC</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventanas-pvc-modulo-blanco-panoramicas.jpg</image:loc><image:title>Módulo blanco con ventanas panorámicas de PVC</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventanas-pvc-residencia-privada-interior.jpg</image:loc><image:title>Sala de una residencia privada con ventanas verticales de PVC</image:title></image:image>
+    <image:image><image:loc>https://ventanasnefusacpvc.com/assets/ventanas-pvc-vivienda-modular.jpg</image:loc><image:title>Vivienda modular equipada con ventanas de PVC de NEFUSAC</image:title></image:image>
+  </url>
 </urlset>

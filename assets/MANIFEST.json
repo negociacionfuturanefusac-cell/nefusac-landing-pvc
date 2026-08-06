@@ -16,144 +16,144 @@
   "nota": "subido negro-sobre-blanco; recortado al contenido e INVERTIDO, porque el CSS le aplica invert(1)+mix-blend-mode:multiply y sin invertir sale un rectangulo negro"
  },
  {
-  "repo": "assets/cierre-bano.jpg",
-  "design": "assets/export/cierre-bano.jpg",
+  "repo": "assets/ventana-pvc-corrediza-bano-perfil-negro.jpg",
+  "design": "assets/export/ventana-pvc-corrediza-bano-perfil-negro.jpg",
   "bytes": 135685,
   "presente": true,
   "bytes_local": 47500,
   "nota": "de 8A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/cierre-familia.jpg",
-  "design": "assets/export/cierre-familia.jpg",
+  "repo": "assets/familia-sala-ventana-pvc-nefusac.jpg",
+  "design": "assets/export/familia-sala-ventana-pvc-nefusac.jpg",
   "bytes": 122538,
   "presente": true,
   "bytes_local": 140142,
   "nota": "de HF.png subido (familia en sala); PNG->JPEG q84"
  },
  {
-  "repo": "assets/equipo-nefusac.jpg",
-  "design": "assets/export/equipo-nefusac.jpg",
+  "repo": "assets/operario-nefusac-planta-fabricacion-pvc.jpg",
+  "design": "assets/export/operario-nefusac-planta-fabricacion-pvc.jpg",
   "bytes": 112857,
   "presente": true,
   "bytes_local": 123029,
   "nota": "de D1.png subido (operario en planta); PNG->JPEG q86"
  },
  {
-  "repo": "assets/gal1.jpg",
-  "design": "assets/export/gal1.jpg",
+  "repo": "assets/ventana-pvc-corrediza-blanca-sala-jardin.jpg",
+  "design": "assets/export/ventana-pvc-corrediza-blanca-sala-jardin.jpg",
   "bytes": 204609,
   "presente": true,
   "bytes_local": 50176,
   "nota": "de 1A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/gal2.jpg",
-  "design": "assets/export/gal2.jpg",
+  "repo": "assets/ventana-pvc-dormitorio-vista-al-mar.jpg",
+  "design": "assets/export/ventana-pvc-dormitorio-vista-al-mar.jpg",
   "bytes": 120689,
   "presente": true,
   "bytes_local": 35902,
   "nota": "de 2A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/gal3.jpg",
-  "design": "assets/export/gal3.jpg",
+  "repo": "assets/ventana-pvc-corrediza-cocina-encimera.jpg",
+  "design": "assets/export/ventana-pvc-corrediza-cocina-encimera.jpg",
   "bytes": 136042,
   "presente": true,
   "bytes_local": 41853,
   "nota": "de 3A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/gal4.jpg",
-  "design": "assets/export/gal4.jpg",
+  "repo": "assets/ventana-pvc-corrediza-blanca-detalle.jpg",
+  "design": "assets/export/ventana-pvc-corrediza-blanca-detalle.jpg",
   "bytes": 112397,
   "presente": true,
   "bytes_local": 38179,
   "nota": "de 4A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/gal5.jpg",
-  "design": "assets/export/gal5.jpg",
+  "repo": "assets/ventana-pvc-perfil-negro-dormitorio-mar.jpg",
+  "design": "assets/export/ventana-pvc-perfil-negro-dormitorio-mar.jpg",
   "bytes": 94525,
   "presente": true,
   "bytes_local": 33189,
   "nota": "de 5A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/gal6.jpg",
-  "design": "assets/export/gal6.jpg",
+  "repo": "assets/ventana-pvc-corrediza-negra-sala.jpg",
+  "design": "assets/export/ventana-pvc-corrediza-negra-sala.jpg",
   "bytes": 179933,
   "presente": true,
   "bytes_local": 44584,
   "nota": "de 6A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/gal7.jpg",
-  "design": "assets/export/gal7.jpg",
+  "repo": "assets/ventana-pvc-home-office-vista-ciudad.jpg",
+  "design": "assets/export/ventana-pvc-home-office-vista-ciudad.jpg",
   "bytes": 221473,
   "presente": true,
   "bytes_local": 49645,
   "nota": "de 7A.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/led-bano-2.jpg",
-  "design": "assets/export/led-bano-2.jpg",
+  "repo": "assets/ventana-pvc-led-perimetral-bano-travertino.jpg",
+  "design": "assets/export/ventana-pvc-led-perimetral-bano-travertino.jpg",
   "bytes": 144618,
   "presente": true,
   "bytes_local": 41560,
   "nota": "de 2B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/led-cocina-isla.jpg",
-  "design": "assets/export/led-cocina-isla.jpg",
+  "repo": "assets/ventana-pvc-corrediza-led-perimetral-cocina.jpg",
+  "design": "assets/export/ventana-pvc-corrediza-led-perimetral-cocina.jpg",
   "bytes": 97167,
   "presente": true,
   "bytes_local": 36894,
   "nota": "de 6B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/led-escalera.jpg",
-  "design": "assets/export/led-escalera.jpg",
+  "repo": "assets/ventana-pvc-led-perimetral-escalera.jpg",
+  "design": "assets/export/ventana-pvc-led-perimetral-escalera.jpg",
   "bytes": 65835,
   "presente": true,
   "bytes_local": 28089,
   "nota": "de 8B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/led-estar.jpg",
-  "design": "assets/export/led-estar.jpg",
+  "repo": "assets/ventana-pvc-led-perimetral-estar.jpg",
+  "design": "assets/export/ventana-pvc-led-perimetral-estar.jpg",
   "bytes": 64649,
   "presente": true,
   "bytes_local": 29230,
   "nota": "de 4B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/led-estudio.jpg",
-  "design": "assets/export/led-estudio.jpg",
+  "repo": "assets/ventana-pvc-negra-led-perimetral-estudio.jpg",
+  "design": "assets/export/ventana-pvc-negra-led-perimetral-estudio.jpg",
   "bytes": 90811,
   "presente": true,
   "bytes_local": 33624,
   "nota": "de 3B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/led-noche.jpg",
-  "design": "assets/export/led-noche.jpg",
+  "repo": "assets/ventana-pvc-led-perimetral-de-noche.jpg",
+  "design": "assets/export/ventana-pvc-led-perimetral-de-noche.jpg",
   "bytes": 73060,
   "presente": true,
   "bytes_local": 28528,
   "nota": "de 5B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/led-sala-2.jpg",
-  "design": "assets/export/led-sala-2.jpg",
+  "repo": "assets/ventana-pvc-blanca-led-perimetral-atardecer.jpg",
+  "design": "assets/export/ventana-pvc-blanca-led-perimetral-atardecer.jpg",
   "bytes": 109964,
   "presente": true,
   "bytes_local": 35722,
   "nota": "de 7B.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/led-sala.jpg",
-  "design": "assets/export/led-sala.jpg",
+  "repo": "assets/ventana-pvc-led-perimetral-sala.jpg",
+  "design": "assets/export/ventana-pvc-led-perimetral-sala.jpg",
   "bytes": 76671,
   "presente": true,
   "bytes_local": 23932,
@@ -192,96 +192,96 @@
   "nota": "generado del primer fotograma de video-3.mp4"
  },
  {
-  "repo": "assets/proy-1.jpg",
-  "design": "assets/export/proy-1.jpg",
+  "repo": "assets/ventanas-pvc-edificio-institucional-lima.jpg",
+  "design": "assets/export/ventanas-pvc-edificio-institucional-lima.jpg",
   "bytes": 226303,
   "presente": true,
   "bytes_local": 160443,
   "nota": "de 1C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-10.jpg",
-  "design": "assets/export/proy-10.jpg",
+  "repo": "assets/sellado-perimetral-ventana-pvc-en-obra.jpg",
+  "design": "assets/export/sellado-perimetral-ventana-pvc-en-obra.jpg",
   "bytes": 257921,
   "presente": true,
   "bytes_local": 47645,
   "nota": "de 11C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-11.jpg",
-  "design": "assets/export/proy-11.jpg",
+  "repo": "assets/ventana-pvc-corrediza-departamento-enchape.jpg",
+  "design": "assets/export/ventana-pvc-corrediza-departamento-enchape.jpg",
   "bytes": 201245,
   "presente": true,
   "bytes_local": 39936,
   "nota": "de 12C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-12.jpg",
-  "design": "assets/export/proy-12.jpg",
+  "repo": "assets/ventana-pvc-panoramica-mezanine.jpg",
+  "design": "assets/export/ventana-pvc-panoramica-mezanine.jpg",
   "bytes": 153406,
   "presente": true,
   "bytes_local": 76198,
   "nota": "de 10C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-2.jpg",
-  "design": "assets/export/proy-2.jpg",
+  "repo": "assets/ventana-pvc-interior-residencial-jardin.jpg",
+  "design": "assets/export/ventana-pvc-interior-residencial-jardin.jpg",
   "bytes": 234805,
   "presente": true,
   "bytes_local": 62702,
   "nota": "de 2C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-3.jpg",
-  "design": "assets/export/proy-3.jpg",
+  "repo": "assets/ventanas-pvc-residencia-privada-interior.jpg",
+  "design": "assets/export/ventanas-pvc-residencia-privada-interior.jpg",
   "bytes": 133401,
   "presente": true,
   "bytes_local": 62058,
   "nota": "de 4C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-4.jpg",
-  "design": "assets/export/proy-4.jpg",
+  "repo": "assets/ventanas-pvc-conjunto-modular-terraza.jpg",
+  "design": "assets/export/ventanas-pvc-conjunto-modular-terraza.jpg",
   "bytes": 113614,
   "presente": true,
   "bytes_local": 38679,
   "nota": "de 8C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-5.jpg",
-  "design": "assets/export/proy-5.jpg",
+  "repo": "assets/ventana-pvc-corrediza-salida-jardin.jpg",
+  "design": "assets/export/ventana-pvc-corrediza-salida-jardin.jpg",
   "bytes": 538271,
   "presente": true,
   "bytes_local": 60608,
   "nota": "de 7C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-6.jpg",
-  "design": "assets/export/proy-6.jpg",
+  "repo": "assets/ventanas-pvc-cocina-tres-cuerpos.jpg",
+  "design": "assets/export/ventanas-pvc-cocina-tres-cuerpos.jpg",
   "bytes": 323225,
   "presente": true,
   "bytes_local": 63100,
   "nota": "de 6C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-7.jpg",
-  "design": "assets/export/proy-7.jpg",
+  "repo": "assets/ventanas-pvc-vivienda-modular.jpg",
+  "design": "assets/export/ventanas-pvc-vivienda-modular.jpg",
   "bytes": 154085,
   "presente": true,
   "bytes_local": 136448,
   "nota": "de 5C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-8.jpg",
-  "design": "assets/export/proy-8.jpg",
+  "repo": "assets/ventanas-pvc-modulo-blanco-panoramicas.jpg",
+  "design": "assets/export/ventanas-pvc-modulo-blanco-panoramicas.jpg",
   "bytes": 297264,
   "presente": true,
   "bytes_local": 58267,
   "nota": "de 9C.png subido; PNG->JPEG q85. OJO: captura del render, trae el rotulo quemado en el pixel (ver stopgap en index.html)"
  },
  {
-  "repo": "assets/proy-9.jpg",
-  "design": "assets/export/proy-9.jpg",
+  "repo": "assets/ventana-pvc-corrediza-bano-enchape.jpg",
+  "design": "assets/export/ventana-pvc-corrediza-bano-enchape.jpg",
   "bytes": 215889,
   "presente": true,
   "bytes_local": 38311,

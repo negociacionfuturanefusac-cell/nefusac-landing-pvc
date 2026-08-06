@@ -18,7 +18,7 @@ OUT = os.path.join(RAIZ, "index.html")
 CSS = os.path.join(RAIZ, "styles.css")
 DIMS = json.load(open(os.path.join(RAIZ, "assets", "DIMENSIONES.json")))
 
-DOMINIO = "https://www.nefusac.com"
+DOMINIO = "https://ventanasnefusacpvc.com"
 TEL = "+51981124794"
 WA = "51981124794"
 
@@ -56,7 +56,9 @@ JSONLD = {
             "telephone": TEL,
             "email": "cotiza@nefusac.com.pe",
             "foundingDate": "1988",
-            "image": DOMINIO + "/assets/og-nefusac.jpg",
+            "image": [DOMINIO + "/assets/og-nefusac.jpg",
+                      DOMINIO + "/assets/operario-nefusac-planta-fabricacion-pvc.jpg",
+                      DOMINIO + "/assets/familia-sala-ventana-pvc-nefusac.jpg"],
             "logo": DOMINIO + "/assets/logo.jpg",
             "priceRange": "$$",
             "address": {
@@ -79,7 +81,10 @@ JSONLD = {
                             "Disponible en blanco y negro, fabricado a medida."),
             "brand": {"@type": "Brand", "name": "NEFUSAC"},
             "material": "PVC-U",
-            "image": DOMINIO + "/assets/led-sala.jpg",
+            "image": [DOMINIO + "/assets/ventana-pvc-corrediza-blanca-sala-jardin.jpg",
+                      DOMINIO + "/assets/ventana-pvc-perfil-negro-dormitorio-mar.jpg",
+                      DOMINIO + "/assets/ventana-pvc-led-perimetral-sala.jpg",
+                      DOMINIO + "/assets/ventanas-pvc-edificio-institucional-lima.jpg"],
             "manufacturer": {"@id": DOMINIO + "/#empresa"},
             "audience": {"@type": "Audience",
                          "audienceType": "Residencial y corporativo"},
@@ -521,15 +526,23 @@ def construir():
 
     open(os.path.join(RAIZ, "robots.txt"), "w", encoding="utf-8").write(
         f"User-agent: *\nAllow: /\n\nSitemap: {DOMINIO}/sitemap.xml\n")
-    anclas = ["", "#silencio", "#producto", "#galeria", "#led", "#ficha", "#empresa", "#contacto"]
-    urls = "\n".join(
-        f"  <url><loc>{DOMINIO}/{a}</loc>"
-        f"<changefreq>monthly</changefreq>"
-        f"<priority>{'1.0' if a == '' else '0.7'}</priority></url>" for a in anclas)
+    # Una sola <url>: los anclajes (#silencio, #led...) no son paginas distintas
+    # para Google, que los normaliza a "/". Listarlos solo ensuciaba el sitemap.
+    # Debajo van las fotos con <image:image>, que es como Google las descubre
+    # para la busqueda de imagenes; el title es el alt de cada una.
+    imgs = []
+    for ruta, alt in sorted(re.findall(r'<img[^>]*src="(assets/[^"]+)"[^>]*alt="([^"]*)"', s)):
+        if any(x in ruta for x in ("logo", "-w")):
+            continue
+        imgs.append(f"    <image:image><image:loc>{DOMINIO}/{ruta}</image:loc>"
+                    f"<image:title>{alt.replace('&', '&amp;')}</image:title></image:image>")
     open(os.path.join(RAIZ, "sitemap.xml"), "w", encoding="utf-8").write(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + urls + "\n</urlset>\n")
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+        '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+        f"  <url>\n    <loc>{DOMINIO}/</loc>\n"
+        "    <changefreq>monthly</changefreq>\n    <priority>1.0</priority>\n"
+        + "\n".join(imgs) + "\n  </url>\n</urlset>\n")
 
     print("index.html  %6.1f KB" % (os.path.getsize(OUT) / 1024))
     print("styles.css  %6.1f KB" % (os.path.getsize(CSS) / 1024))

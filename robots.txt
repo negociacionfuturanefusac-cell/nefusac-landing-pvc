@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.nefusac.com/sitemap.xml
+Sitemap: https://ventanasnefusacpvc.com/sitemap.xml
